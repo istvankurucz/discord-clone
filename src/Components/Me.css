@@ -1,0 +1,45 @@
+.me {
+	height: 50px;
+	background: rgb(41, 43, 47);
+	padding: 30px 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.me .MuiAvatar-root {
+	width: 35px;
+	height: 35px;
+	margin-right: 10px;
+}
+.me__info p:first-child {
+	font-size: 85%;
+	font-weight: 700;
+	color: white;
+	white-space: nowrap;
+}
+.me__info p:last-child {
+	font-size: 70%;
+	font-style: italic;
+}
+.me__icons {
+	font-display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	color: rgb(185, 187, 190);
+}
+.me__icons .MuiSvgIcon-root {
+	font-size: 150%;
+	padding: 2px;
+	margin: 0 3px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.me__icons .MuiSvgIcon-root:hover {
+	background-color: rgb(57, 60, 67);
+	color: white;
+}

@@ -1,0 +1,86 @@
+.homeSidebar {
+	width: 20%;
+	height: 100vh;
+	color: rgb(114, 118, 125);
+	background: rgb(47, 49, 54);
+	border-top-left-radius: 10px;
+	position: relative;
+}
+
+.homeSidebar__search {
+	height: 50px;
+	border-bottom: 2px solid rgb(32, 34, 37);
+	display: grid;
+	place-items: center;
+}
+.homeSidebar__search input {
+	width: 90%;
+	color: rgb(114, 118, 125);
+	background: rgb(32, 34, 37);
+	border: none;
+	outline-width: 0;
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.homeSidebar__menu {
+	margin-bottom: 20px;
+}
+.homeSidebar__menu__item {
+	width: 90%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.homeSidebar__menu__item:hover,
+.homeSidebar__menu__item.active {
+	background: rgb(57, 60, 67);
+	font-weight: 700;
+	color: white;
+	transition: all 0.1s linear;
+}
+.homeSidebar__menu__item p {
+	margin-left: 15px;
+}
+
+.homeSidebar__chats {
+	width: 90%;
+	margin: 0 auto;
+}
+.homeSidebar__chats__title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 80%;
+	margin-bottom: 10px;
+}
+.homeSidebar__chats__title .MuiSvgIcon-root {
+	font-size: 1.2rem;
+	cursor: pointer;
+}
+.homeSidebar__chats__conversations {
+	max-height: 500px;
+	height: 55vh;
+	overflow-y: scroll;
+}
+.homeSidebar__chats__conversations::-webkit-scrollbar {
+	width: 10px;
+}
+.homeSidebar__chats__conversations::-webkit-scrollbar-thumb {
+	background: rgb(32, 34, 37);
+	border-radius: 10px;
+}
+.homeSidebar__chats__conversations::-webkit-scrollbar-track {
+	background: rgb(46, 51, 56);
+	border-radius: 10px;
+}

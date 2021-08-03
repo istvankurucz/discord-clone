@@ -1,0 +1,70 @@
+.discoverFeed {
+	width: 85%;
+	background: rgb(54, 57, 63);
+}
+
+.discoverFeed__banner {
+	width: 90%;
+	min-height: 200px;
+	height: 40%;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	background: url("https://discord.com/assets/3e0acf6d69894a5d20deb7c513cd1412.svg") no-repeat center;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 15px;
+	color: white;
+}
+.discoverFeed__banner__title {
+	text-shadow: 1px 1px 1px black;
+	margin-bottom: 15px;
+}
+.discoverFeed__banner__title span {
+	text-transform: capitalize;
+}
+.discoverFeed__banner p {
+	margin-bottom: 15px;
+}
+.discoverFeed__banner__search {
+	width: 50%;
+	position: relative;
+}
+.discoverFeed__banner__search input {
+	width: 100%;
+	line-height: 2;
+	padding: 5px 10px;
+	border: 3px solid rgb(92, 71, 238);
+	color: black;
+	background: white;
+	border-radius: 10px;
+	outline-width: 0;
+}
+.discoverFeed__banner__search input:focus {
+	border: 3px solid rgb(164, 151, 247);
+}
+.discoverFeed__banner__search .MuiSvgIcon-root {
+	color: rgb(149, 152, 157);
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+.discoverFeed__banner__search button {
+	display: none;
+}
+
+.discoverFeed h2 {
+	width: 90%;
+	margin: 10px auto;
+	color: white;
+	font-size: 120%;
+}
+
+.discoverFeed__cards {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}

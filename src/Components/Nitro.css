@@ -1,0 +1,20 @@
+.nitro {
+	background: rgb(54, 57, 63);
+	width: 85%;
+}
+
+.nitro__header {
+	height: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 15px;
+}
+.nitro__header .MuiSvgIcon-root {
+	color: rgb(114, 118, 125);
+}
+.nitro__header p {
+	color: white;
+	font-weight: 700;
+	margin-left: 10px;
+}

@@ -1,0 +1,44 @@
+.messageInput {
+	width: 100%;
+	height: 70px;
+	background: rgb(54, 57, 63);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.messageInput__inner {
+	width: 95%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	color: rgb(158, 187, 190);
+	background: rgb(64, 68, 75);
+	border-radius: 10px;
+	padding: 0 10px;
+}
+.messageInput .MuiSvgIcon-root {
+	margin: 0 7px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.messageInput .MuiSvgIcon-root:hover {
+	color: white;
+	transition: all 0.1s linear;
+}
+.messageInput input {
+	width: 85%;
+	line-height: 1.6;
+	background: transparent;
+	border: none;
+	outline-width: 0;
+	color: rgb(114, 118, 125);
+}
+.messageInput input:focus {
+	color: white;
+}
+.messageInput button {
+	display: none;
+}

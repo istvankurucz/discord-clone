@@ -1,0 +1,55 @@
+.serverSettings {
+	position: absolute;
+	top: 60px;
+	left: 15px;
+	right: 15px;
+	color: rgb(126, 127, 130);
+	background: rgb(24, 25, 28);
+	padding: 10px;
+	border-radius: 6px;
+	display: none;
+}
+
+.serverSettings__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 7px;
+	font-size: 85%;
+	font-weight: 700;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.serverSettings__row.invite {
+	color: rgb(125, 132, 207);
+}
+.serverSettings__row.leave {
+	text-decoration: none;
+	color: rgb(237, 66, 69);
+}
+.serverSettings__row.leave:hover {
+	background: rgb(237, 66, 69);
+	transition: all 0.1s linear;
+}
+.serverSettings__row:hover {
+	color: white;
+	background: rgb(71, 82, 196);
+	transition: all 0.1s linear;
+}
+.serverSettings__row img {
+	width: 20px;
+	height: 20px;
+	background: rgb(24, 25, 28);
+}
+.serverSettings__row .MuiSvgIcon-root {
+	font-size: 135%;
+}
+
+.serverSettings hr {
+	width: 90%;
+	height: 1px;
+	margin: 5px auto;
+	background: rgb(38, 39, 41);
+	border-width: 0;
+}

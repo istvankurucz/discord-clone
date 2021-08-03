@@ -1,0 +1,26 @@
+.homeFriends {
+	width: 80%;
+	background: rgb(54, 57, 63);
+}
+
+.homeFriends__main {
+	display: flex;
+	flex-flow: row nowrap;
+	height: calc(100vh - 50px);
+}
+
+.homeFriends__main__friends {
+	width: 75%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	border-right: 3px solid rgb(66, 69, 74);
+}
+.homeFriends__main__friends img {
+	max-width: 100%;
+}
+.homeFriends__main__friends p {
+	color: rgb(114, 118, 125);
+}

@@ -1,0 +1,92 @@
+.serverChat {
+	width: 80%;
+	background: rgb(54, 57, 63);
+}
+
+.serverChat__flex {
+	height: calc(100vh - 50px);
+	display: flex;
+}
+
+.help {
+	flex: 1;
+	position: relative;
+}
+
+.serverChat__inner {
+	height: calc(100vh - 130px);
+	margin: 10px 15px;
+	overflow-y: scroll;
+	position: relative;
+}
+.serverChat__inner::-webkit-scrollbar {
+	width: 10px;
+}
+.serverChat__inner::-webkit-scrollbar-thumb {
+	background: rgb(32, 34, 37);
+	border-radius: 10px;
+}
+.serverChat__inner::-webkit-scrollbar-track {
+	background: rgb(46, 51, 56);
+	border-radius: 10px;
+}
+
+.serverChat__info {
+	border-bottom: 1px solid rgb(66, 69, 74);
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.serverChat__info div {
+	width: 100px;
+	height: 100px;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	color: white;
+	background: rgb(79, 84, 92);
+	font-size: 400%;
+	font-weight: 700;
+}
+.serverChat__info__name {
+	color: white;
+	font-size: 200%;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.serverChat__info p:last-child {
+	color: rgb(114, 118, 125);
+	font-size: 85%;
+}
+
+.serverChat__inner__messageInput {
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+}
+
+.serverChat__members {
+	width: 20%;
+	background: rgb(47, 49, 54);
+	padding: 10px;
+}
+.serverChat__members__member {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: rgb(148, 89, 182);
+	cursor: pointer;
+	padding: 5px;
+	margin: 5px 0;
+	border-radius: 6px;
+	transition: all 0.1s linear;
+}
+.serverChat__members__member:hover {
+	background: rgb(52, 55, 60);
+	transition: all 0.1s linear;
+}
+.serverChat__members__member .MuiAvatar-root {
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
+}

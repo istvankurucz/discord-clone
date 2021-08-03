@@ -1,0 +1,21 @@
+.activeNow {
+	width: 25%;
+	padding: 15px;
+}
+.activeNow h2 {
+	color: white;
+	margin-bottom: 25px;
+}
+.activeNow h3 {
+	font-size: 110%;
+	color: white;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.activeNow p {
+	width: 85%;
+	font-size: 90%;
+	color: rgb(114, 118, 125);
+	text-align: justify;
+	margin: 0 auto;
+}

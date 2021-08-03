@@ -1,0 +1,46 @@
+.conversation {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.conversation:hover,
+.conversation.active {
+	color: white;
+	background: rgb(57, 60, 67);
+	transition: all 0.1s linear;
+}
+
+.conversation__user {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.conversation__user .MuiAvatar-root {
+	width: 35px;
+	height: 35px;
+}
+.conversation__user p {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding-bottom: 3px;
+	margin-left: 10px;
+}
+
+.conversation > .MuiSvgIcon-root {
+	display: none;
+	color: rgb(114, 118, 125);
+	font-size: 110%;
+}
+.conversation:hover .MuiSvgIcon-root {
+	display: block;
+}
+.conversation:hover .MuiSvgIcon-root:hover {
+	color: white;
+}

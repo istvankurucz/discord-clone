@@ -1,0 +1,69 @@
+.homeFriendsHeader {
+	height: 50px;
+	border-bottom: 2px solid rgb(32, 34, 37);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: rgb(114, 118, 125);
+}
+
+.homeFriendsHeader__menu {
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.homeFriendsHeader__menu__title {
+	display: flex;
+	font-weight: 700;
+	border-right: 3px solid rgb(66, 69, 74);
+}
+.homeFriendsHeader__menu__title .MuiSvgIcon-root {
+	font-size: 160%;
+}
+.homeFriendsHeader__menu__title p {
+	color: white;
+	padding: 0 15px 0 10px;
+}
+
+.homeFriendsHeader__menu__item {
+	line-height: 1.6;
+	padding: 0 5px;
+	margin: 0 7px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.homeFriendsHeader__menu__item:first-child {
+	margin-left: 10px;
+}
+.homeFriendsHeader__menu__item:hover,
+.homeFriendsHeader__menu__item.active {
+	color: white;
+	background: rgb(62, 66, 73);
+	transition: all 0.1s linear;
+}
+.homeFriendsHeader__menu__item:last-child {
+	color: white;
+	background: rgb(59, 165, 93);
+	white-space: nowrap;
+}
+
+.homeFriendsHeader__icons .MuiSvgIcon-root {
+	font-size: 140%;
+	margin: 0 10px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.homeFriendsHeader__icons .MuiSvgIcon-root:hover {
+	color: white;
+	transition: all 0.1s linear;
+}
+.homeFriendsHeader__icons span {
+	height: 25px;
+	padding: 0 5px;
+	border-right: 3px solid rgb(66, 69, 74);
+}
+.homeFriendsHeader__icons span .MuiSvgIcon-root {
+	font-size: 130%;
+}

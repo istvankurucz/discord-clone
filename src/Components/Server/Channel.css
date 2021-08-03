@@ -1,0 +1,48 @@
+.channel {
+	width: 90%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	color: rgb(114, 118, 125);
+	margin: 10px auto;
+	padding: 0 7px;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.channel:hover,
+.channel.active {
+	color: white;
+	background: rgb(57, 60, 67);
+	transition: all 0.1s linear;
+}
+.channel .MuiSvgIcon-root {
+	color: rgb(114, 118, 125);
+}
+.channel span {
+	font-size: 160%;
+	font-weight: 700;
+}
+.channel p {
+	max-width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-left: 5px;
+}
+.channel__addIcon {
+	display: none;
+}
+.channel__addIcon .MuiSvgIcon-root {
+	font-size: 130%;
+	position: absolute;
+	right: 5px;
+	top: 8px;
+}
+.channel:hover .channel__addIcon {
+	display: block;
+}
+.channel__addIcon .MuiSvgIcon-root:hover {
+	color: white;
+}

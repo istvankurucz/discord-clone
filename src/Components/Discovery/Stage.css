@@ -1,0 +1,76 @@
+.stage {
+	width: 80%;
+	height: 180px;
+	color: rgb(185, 185, 186);
+	background: rgb(47, 49, 54);
+	border-radius: 15px;
+	padding: 10px;
+	margin: 10px auto;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.stage:hover {
+	background: rgb(41, 43, 47);
+	transition: all 0.1s linear;
+}
+
+.stage__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.stage__header__title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.stage__header__title .MuiSvgIcon-root {
+	font-size: 100%;
+}
+.stage__header__title p {
+	font-size: 90%;
+	margin-left: 5px;
+}
+.stage__header__views {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: rgb(32, 34, 37);
+	padding: 5px 8px;
+	border-radius: 100px;
+}
+.stage__header__views .MuiSvgIcon-root {
+	color: white;
+	font-size: 110%;
+}
+.stage__header__views span {
+	font-size: 95%;
+	margin-left: 5px;
+}
+
+.stage__title {
+	font-size: 145%;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.stage__participants {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 10px 0;
+}
+.stage__participants__participant {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 30px 10px 0;
+}
+.stage__participants__participant .MuiAvatar-root {
+	width: 25px;
+	height: 25px;
+}
+.stage__participants__participant p {
+	margin-left: 5px;
+}

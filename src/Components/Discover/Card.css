@@ -1,0 +1,86 @@
+.card {
+	min-width: 100px;
+	width: 20%;
+	min-height: 200px;
+	height: 40%;
+	color: rgb(157, 159, 162);
+	background: rgb(41, 43, 47);
+	border-radius: 10px;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.card:hover {
+	background: rgb(32, 34, 37);
+	box-shadow: 0 5px 5px rgb(32, 34, 37);
+	transition: all 0.1s linear;
+}
+
+.card__background {
+	width: 100%;
+	height: 100px;
+	border-radius: 10px 10px 0 0;
+}
+
+.card__logo {
+	width: 40px;
+	height: 40px;
+	border: 5px solid rgb(41, 43, 47);
+	border-radius: 6px;
+	position: absolute;
+	top: 75px;
+	left: 20px;
+}
+
+.card__title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 10px 0;
+	padding: 0 5px;
+}
+.card__title .MuiSvgIcon-root {
+	font-size: 120%;
+	color: rgb(88, 101, 242);
+}
+.card__title p {
+	font-size: 110%;
+	font-weight: 700;
+	color: white;
+	margin-left: 5px;
+}
+
+.card__description {
+	font-size: 85%;
+	text-align: justify;
+	padding: 0 5px;
+	margin-bottom: 10px;
+}
+
+.card__data {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 8px 5px;
+	font-size: 80%;
+}
+.card__dataCircle {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+.card__dataCircle.green {
+	background: rgb(59, 165, 93);
+}
+.card__dataCircle.grey {
+	background: rgb(185, 187, 190);
+}
+.card__data__members,
+.card__data__online {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.card__dataNumber {
+	margin: 0 3px;
+}

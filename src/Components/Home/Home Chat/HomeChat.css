@@ -1,0 +1,44 @@
+.homeChat {
+	width: 80%;
+	background: rgb(54, 57, 63);
+	position: relative;
+}
+
+.homeChat__inner {
+	height: calc(100vh - 130px);
+	overflow-y: scroll;
+	margin: 10px 15px;
+}
+.homeChat__inner::-webkit-scrollbar {
+	width: 10px;
+}
+.homeChat__inner::-webkit-scrollbar-thumb {
+	background: rgb(32, 34, 37);
+	border-radius: 10px;
+}
+.homeChat__inner::-webkit-scrollbar-track {
+	background: rgb(46, 51, 56);
+	border-radius: 10px;
+}
+
+.homeChat__info {
+	border-bottom: 1px solid rgb(66, 69, 74);
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.homeChat__info img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: white;
+}
+.homeChat__info__name {
+	color: white;
+	font-size: 200%;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.homeChat__info p:last-child {
+	color: rgb(114, 118, 125);
+	font-size: 85%;
+}

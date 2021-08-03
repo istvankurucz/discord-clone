@@ -1,0 +1,45 @@
+.serverSidebar {
+	width: 20%;
+	height: 100vh;
+	color: rgb(114, 118, 125);
+	background: rgb(47, 49, 54);
+	border-top-left-radius: 10px;
+	position: relative;
+}
+
+.serverSidebar__name {
+	height: 50px;
+	border-bottom: 2px solid rgb(32, 34, 37);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.serverSidebar__name:hover {
+	border-top-left-radius: 10px;
+	background: rgb(52, 55, 60);
+}
+.serverSidebar__name p {
+	color: white;
+	font-weight: 700;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.serverSidebar__channels {
+	height: calc(100vh - 110px);
+	overflow-y: scroll;
+}
+.serverSidebar__channels::-webkit-scrollbar {
+	width: 10px;
+}
+.serverSidebar__channels::-webkit-scrollbar-thumb {
+	background: rgb(32, 34, 37);
+	border-radius: 10px;
+}
+.serverSidebar__channels::-webkit-scrollbar-track {
+	background: rgb(46, 51, 56);
+	border-radius: 10px;
+}

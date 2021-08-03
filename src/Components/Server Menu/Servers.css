@@ -1,0 +1,23 @@
+.servers {
+	background-color: rgb(32, 34, 37);
+	height: 100vh;
+	width: 80px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 0;
+	overflow: scroll;
+}
+
+.servers::-webkit-scrollbar {
+	display: none;
+}
+
+hr {
+	width: 50%;
+	height: 2px;
+	margin: -5px auto 10px;
+	background: rgb(54, 57, 63);
+	border: none;
+}

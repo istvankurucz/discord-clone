@@ -1,0 +1,45 @@
+.discoverSidebar {
+	width: 15%;
+	height: 100vh;
+	color: rgb(114, 118, 125);
+	background: rgb(47, 49, 54);
+	border-top-left-radius: 10px;
+	position: relative;
+}
+.discoverSidebar h1 {
+	width: 90%;
+	color: white;
+	margin: 10px auto 20px auto;
+}
+
+.discoverSidebar__menu {
+	width: 90%;
+	margin: 0 auto;
+}
+.discoverSidebar__menu__item {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: rgb(185, 187, 190);
+	padding: 10px;
+	margin: 2px 0;
+	line-height: 1.6;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.discoverSidebar__menu__item.active {
+	color: white;
+	background: rgb(88, 101, 242);
+}
+.discoverSidebar__menu__item.active:hover {
+	background: rgb(88, 101, 242);
+}
+.discoverSidebar__menu__item:hover {
+	color: white;
+	background: rgb(52, 55, 60);
+	transition: all 0.1s linear;
+}
+.discoverSidebar__menu__item p {
+	margin-left: 10px;
+}

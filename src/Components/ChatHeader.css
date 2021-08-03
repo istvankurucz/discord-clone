@@ -1,0 +1,73 @@
+.chatHeader {
+	height: 50px;
+	border-bottom: 2px solid rgb(32, 34, 37);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.chatHeader__name {
+	display: flex;
+	align-items: center;
+}
+.chatHeader__name span {
+	color: rgb(114, 118, 125);
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0 10px;
+}
+.chatHeader__name p {
+	color: white;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.chatHeader__name div {
+	width: 10px;
+	height: 10px;
+	background: rgb(114, 118, 125);
+	border-radius: 50%;
+}
+
+.chatHeader__details {
+	flex: 1;
+	color: rgb(185, 187, 190);
+	font-size: 95%;
+	margin-left: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.chatHeader__icons {
+	display: flex;
+	align-items: center;
+}
+.chatHeader__icons .MuiSvgIcon-root {
+	color: rgb(185, 187, 190);
+	margin: 0 7px;
+	cursor: pointer;
+	transition: all 0.1s linear;
+}
+.chatHeader__icons .MuiSvgIcon-root:hover {
+	color: white;
+	transition: all 0.1s linear;
+}
+.chatHeader__icons__search {
+	position: relative;
+	margin: 0 7px;
+}
+.chatHeader__icons__search input {
+	color: rgb(114, 118, 125);
+	background: rgb(32, 34, 37);
+	border: none;
+	outline-width: 0;
+	padding: 5px;
+	border-radius: 6px;
+}
+.chatHeader__icons__search .MuiSvgIcon-root {
+	color: rgb(114, 118, 125);
+	position: absolute;
+	top: 5px;
+	right: 0;
+	font-size: 110%;
+}

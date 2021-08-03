@@ -1,0 +1,55 @@
+.serverBubble {
+	background: rgb(54, 57, 63);
+	display: grid;
+	place-items: center;
+	width: 55px;
+	height: 55px;
+	margin-bottom: 15px;
+	border-radius: 50%;
+	position: relative;
+	transition: all 0.1s linear;
+}
+.serverBubble::before,
+.serverBubble.active::before {
+	content: "";
+	width: 4px;
+	height: 20px;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: -10px;
+	background-color: rgb(32, 34, 37);
+	border-radius: 0 5px 5px 0;
+	transition: all 0.15s linear;
+}
+.serverBubble.active::before {
+	background-color: white;
+	height: 50px;
+	top: calc(50% - 25px);
+}
+.serverBubble:hover::before {
+	background: white;
+	transition: all 0.15s linear;
+}
+.serverBubble:hover,
+.serverBubble.active {
+	border-radius: 30%;
+	cursor: pointer;
+	transition: 0.15s linear;
+}
+.serverBubble.discord:hover,
+.serverBubble.discord.active {
+	background: rgb(88, 101, 242);
+}
+.serverBubble.icon {
+	color: rgb(59, 165, 93);
+}
+.serverBubble.icon:hover,
+.serverBubble.icon.active {
+	color: white;
+	background: rgb(59, 165, 93);
+}
+
+.serverBubble img {
+	width: 35px;
+	height: 35px;
+}
